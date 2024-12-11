@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  db:
+    build: "./wewindowssql/database"
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: phone_catalog
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: wewindows
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      timeout: 5s
+      retries: 10
