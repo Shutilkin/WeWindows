@@ -5,6 +5,7 @@ import com.example.wewindows.repository.UserRepository;
 import com.example.wewindows.security.JwtProvider;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -15,17 +16,18 @@ import org.springframework.stereotype.Service;
 @Service
 public class AuthenticateUserUseCase {
 
-    private final UserRepository userRepository;
-    private final PasswordEncoder passwordEncoder;
-    private final JwtProvider jwtTokenProvider;
+    private UserRepository userRepository;
+    private PasswordEncoder passwordEncoder;
+    @Autowired
+    private JwtProvider jwtTokenProvider;
 
     public String execute(String email, String password) {
         User user = userRepository.findUserByEmail(email)
                 .orElseThrow(() -> new BadCredentialsException("Invalid username or password"));
 
-        if (!passwordEncoder.matches(password, user.getPassword())) {
-            throw new BadCredentialsException("Invalid username or password");
-        }
+       if (!passwordEncoder.matches(password, user.getPassword())) {
+           throw new BadCredentialsException("Invalid username or password");
+       }
 
         return jwtTokenProvider.createToken(user);
     }
