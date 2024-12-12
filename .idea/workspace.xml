@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03556125-0e17-4326-91bb-1d14a5c21c19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WEwindows/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEwindows/src/main/java/com/example/wewindows/business/AuthenticateUserUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/WEwindows/src/main/java/com/example/wewindows/business/AuthenticateUserUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEwindows/src/main/java/com/example/wewindows/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/WEwindows/src/main/java/com/example/wewindows/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEwindows/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/WEwindows/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEwindows/src/test/java/com/example/wewindows/WewindowsApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-    </list>
+    <list default="true" id="03556125-0e17-4326-91bb-1d14a5c21c19" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,7 +112,7 @@
       <workItem from="1733958447564" duration="5291000" />
       <workItem from="1733996892726" duration="6809000" />
       <workItem from="1734041362026" duration="989000" />
-      <workItem from="1734043560712" duration="529000" />
+      <workItem from="1734043560712" duration="2356000" />
     </task>
     <servers />
   </component>
