@@ -10,23 +10,56 @@
     <div id="registerModal" class="modal">
         <div class="modal-content">
           <span class="close">&times;</span>
-          <h2>Регистрация</h2>
-          <form id="registerForm">
-            <label for="username">Логин</label>
-            <input type="text" id="username" name="username" placeholder="Придумайте логин" required>
+          <h2 class="modal-title">Регистрация</h2>
+          <form id="registerForm" class="form-wrapper">
+            <label for="username" class="form-label">Логин</label>
+            <input type="text" id="username" name="username" class="form-input" placeholder="Придумайте логин" required>
 
-            <label for="email">Email</label>
-            <input type="email" id="username" name="username" placeholder="Введите email" required>
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" name="email" class="form-input" placeholder="Введите email" required>
       
-            <label for="password">Пароль</label>
-            <input type="password" id="password" name="password" placeholder="Придумайте пароль" required>
+            <label for="password" class="form-label">Пароль</label>
+            <input type="password" id="password" name="password" class="form-input" placeholder="Придумайте пароль" required>
 
-            <label for="password">Повторите пароль</label>
-            <input type="password" id="password" name="password" placeholder="Введите пароль ещё раз" required>
+            <label for="confirmPassword" class="form-label">Повторите пароль</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" class="form-input" placeholder="Введите пароль ещё раз" required>
       
-            <button type="submit" class="register-button">Зарегистрироваться</button>
+            <button type="submit" class="register-button form-button">Зарегистрироваться</button>
           </form>
         </div>
       </div>
+
+    <script>
+        document.getElementById('registerForm').addEventListener('submit', async (event) => {
+            event.preventDefault();
+            const username = document.getElementById('username').value;
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirmPassword').value;
+
+            if (password !== confirmPassword) {
+                alert('Пароли не совпадают');
+                return;
+            }
+
+            try {
+                const response = await fetch('http://localhost:3000/user/register', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ username, email, password }),
+                });
+
+                const data = await response.json();
+                if (response.ok) {
+                    alert('Регистрация успешна');
+                } else {
+                    alert('Ошибка: ' + data.message);
+                }
+            } catch (error) {
+                console.error('Ошибка при отправке запроса:', error);
+                alert('Произошла ошибка. Повторите попытку позже.');
+            }
+        });
+    </script>
 </body>
 </html>
