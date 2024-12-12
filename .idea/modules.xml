@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ProjectFriday/ProjectFriday.iml" filepath="$PROJECT_DIR$/ProjectFriday/ProjectFriday.iml" />
       <module fileurl="file://$PROJECT_DIR$/wewindows.iml" filepath="$PROJECT_DIR$/wewindows.iml" />
       <module fileurl="file://$PROJECT_DIR$/wewindowssql/wewindowssql.iml" filepath="$PROJECT_DIR$/wewindowssql/wewindowssql.iml" />
     </modules>

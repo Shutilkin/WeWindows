@@ -5,33 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03556125-0e17-4326-91bb-1d14a5c21c19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEwindows/src/main/java/com/example/wewindows/business/AuthenticateUserUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEwindows/src/main/java/com/example/wewindows/business/CreateNewUserUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEwindows/src/main/java/com/example/wewindows/business/EntityToDtoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEwindows/src/main/java/com/example/wewindows/controler/Controler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEwindows/src/main/java/com/example/wewindows/dto/UserAuthenticateDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEwindows/src/main/java/com/example/wewindows/dto/UserRegistrationDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEwindows/src/main/java/com/example/wewindows/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEwindows/src/main/java/com/example/wewindows/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEwindows/src/main/java/com/example/wewindows/security/JwtProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEwindows/src/main/java/com/example/wewindows/security/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wewindows.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectFriday/ProjectFriday.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectFriday/my-nodejs-project/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEwindows/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/WEwindows/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEwindows/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WEwindows/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEwindows/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WEwindows/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEwindows/src/main/java/com/example/wewindows/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEwindows/src/main/java/com/example/wewindows/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEwindows/src/main/java/com/example/wewindows/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEwindows/src/main/java/com/example/wewindows/.idea/vcs.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,15 +64,15 @@
     "Spring Boot.WewindowsApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/IntelliJ IDEA 2024.2.2/wewindows/wewindowssql",
+    "last_opened_file_path": "D:/IntelliJ IDEA 2024.2.2/wewindows/ProjectFriday",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -137,6 +114,7 @@
       <workItem from="1733950403361" duration="944000" />
       <workItem from="1733951710751" duration="3043000" />
       <workItem from="1733958447564" duration="5291000" />
+      <workItem from="1733996892726" duration="2765000" />
     </task>
     <servers />
   </component>
